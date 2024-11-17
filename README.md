@@ -31,6 +31,7 @@ Capture the waveform output and include the results in your report for verificat
 Verilog Code:
 
 // swap_three_numbers.v
+```
 module swapnum();
 reg [8:0]a,b,c;
 reg [8:0]temp;
@@ -48,7 +49,7 @@ initial begin
 $monitor("a=%d and b=%d c=%d",a,b,c);
 end 
 endmodule
-
+```
 Testbench for Swapping Three Numbers:
 
 // swap_three_numbers_tb.v
